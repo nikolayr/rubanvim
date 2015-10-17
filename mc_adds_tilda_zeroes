@@ -1,0 +1,4 @@
+# when copying through shift-mouse-select, to pasted text someone adds ~0 ~1
+#http://www.midnight-commander.org/ticket/3207
+#To disable the bracketed paste mode:
+printf "\e[?2004l"
